@@ -1,5 +1,5 @@
 import React from "react";
-import navbar from "./components/navbar/navbar";
+import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { Route, Routes } from "react-router-dom";
 import Add from "./pages/Add/Add";
@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
-  const url = "http://localhost:8080";
+  const url = "https://food-app-9zfn.onrender.com";
   return (
     <div>
       <ToastContainer />
