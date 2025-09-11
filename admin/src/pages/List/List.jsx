@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 
 const List = () => {
   const [list, setList] = useState([]);
-  const url = "http://localhost:8080";
+  const url = "https://food-app-9zfn.onrender.com";
   const fetchList = async () => {
     const response = await axios.get(`${url}/api/food/list`);
     if (response.data.success) {
