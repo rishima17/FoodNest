@@ -3,6 +3,7 @@
 Food-App is a full-stack Food Delivery Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse restaurants, order food, make payments, and track deliveries in real-time.
 
 ---
+Live Demo :- https://rishima-foodnest.vercel.app/
 
 ## Features
 - **User Authentication:** Register, login, and secure sessions.
